@@ -38,8 +38,8 @@ class CalculatorTest {
      @Test
      public void testDifference1() {
          Calculator calculator = new Calculator();
-         calculator.setLeftOperand(12);
-         calculator.setRightOperand(13);
+         calculator.setLeftOperand(0);
+         calculator.setRightOperand(1);
          assertEquals(-1, calculator.getDifference());
      }
 
